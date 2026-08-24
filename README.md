@@ -1,56 +1,37 @@
 # Pricing & Revenue Analysis
 
-### Business Intelligence · SQL · Data Analysis · Revenue Optimization
+### SQL · Excel · Revenue Analytics · Pricing Strategy
 
 ## Overview
 
-Analyzed historical and current procedure rates across 30+ insurance providers to identify pricing differences, prioritize high-impact opportunities, and evaluate potential revenue impact from rate negotiations.
+Analyzed historical and current procedure rates across **30+ insurance providers** to identify pricing differences, prioritize high-impact opportunities, and evaluate potential revenue impact from rate negotiations.
 
-The analysis combined complex insurer-specific pricing structures with business context to determine the appropriate rate for each procedure and quantify the financial impact of potential changes over time.
+Worked with insurer-specific pricing structures that varied by **procedure, specialty, geographic region, effective date, and payment structure**. Developed analysis to determine the appropriate total procedure rate while accounting for procedures with different payment and recognition rules.
 
-> **Note:** This project is based on professional experience. Company names, proprietary data, actual insurance rates, and internal systems are not included. The examples and datasets in this repository are synthetic and created for demonstration purposes.
+## Analysis
 
----
+- Consolidated and analyzed historical and current procedure-rate data across multiple insurers
+- Accounted for insurer-specific geographic regions and specialty-specific pricing
+- Applied effective-date logic to determine the appropriate rate for each procedure
+- Evaluated payment structures where procedures could be recognized immediately, upon delivery, or across multiple visits
+- Calculated the total applicable procedure rate rather than relying on individual rate components
+- Compared rates and production levels to identify the highest-impact pricing opportunities
+- Evaluated potential revenue impact of proposed rate changes over time
 
-## Business Problem
+## Leadership & Negotiation Support
 
-Procedure rates varied significantly across insurance providers, and each insurer maintained its own pricing structure.
+Presented pricing analyses to the **CEO and senior leadership** to compare opportunities and prioritize the highest-producing rates for negotiation.
 
-The analysis needed to account for:
+After insurers returned counteroffers, performed additional analysis to quantify the **potential long-term revenue impact** of the proposed rates and support leadership decision-making.
 
-- Historical and current procedure rates
-- Insurer-specific geographic regions
-- Specialty-specific pricing
-- Procedure-specific payment structures
-- Effective dates
-- Procedures with multiple payment components
-- Differences in how and when procedure rates were recognized
+## Impact
 
-Because of these differences, comparing the listed rate alone was not always sufficient to determine the true total rate for a procedure.
+Identified an estimated **$88K in potential revenue opportunity per provider over a six-month period**.
 
-The goal was to create a reliable view of procedure-level pricing, identify the highest-value opportunities, and quantify the potential revenue impact of negotiated rate changes.
+The analysis provided leadership with a data-driven framework for prioritizing negotiations and evaluating the financial impact of proposed rate changes.
 
----
+## Skills
 
-## Data & Pricing Logic
+`SQL` · `Excel` · `Data Analysis` · `Pricing Analysis` · `Revenue Analysis` · `Business Intelligence` · `Stakeholder Communication` · `Financial Modeling`
 
-### Insurer-Specific Rates
-
-Each insurance provider maintained its own pricing structure and regional definitions.
-
-A single procedure could have different rates based on:
-
-**Insurance Provider → Region → Specialty → Procedure → Effective Date**
-
-Regional definitions were not standardized across insurers, so the analysis used each insurer's own geographic structure when determining the applicable rate.
-
-### Specialty
-
-Rates could also vary based on provider specialty.
-
-For example:
-
-```text
-Procedure X
-├── General Dentistry → Rate A
-└── Pediatric Dentistry → Rate B
+> **Confidentiality:** This project is based on professional experience. Proprietary company data, insurer information, patient information, and internal systems are not included.
